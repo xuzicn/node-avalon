@@ -26,21 +26,21 @@
 
         <h1>alt、src、title绑定</h1>
         <div>
-            ms-alt & ms-src测试<img ms-alt="{{altMsg}}" ms-src="{{imgSrc}}" ms-title="{{imgTitle}}" /><br />
-            ms-attr-alt & ms-attr-src测试<img ms-attr-alt="{{altMsg}}" ms-attr-src="{{imgSrc}}" ms-attr-title="{{imgTitle}}" />
+            ms-alt & ms-src测试<img ms-alt="{{altMsg}}" ms-src="{{imgSrc}}" ms-title="{{imgTitle}}" id='astImage1' /><br />
+            ms-attr-alt & ms-attr-src测试<img ms-attr-alt="{{altMsg}}" ms-attr-src="{{imgSrc}}" ms-attr-title="{{imgTitle}}" id='astImage2' />
         </div>
 
         <h1>src绑定</h1>
         <div>
-            <a ms-href="http://www.qunar.com/{{hrefRouter}}">LINK</a>
-            <a ms-attr-href="http://www.qunar.com/{{hrefRouter}}">LINK</a>
+            <a ms-href="http://www.qunar.com/{{hrefRouter}}" id="aHref1">LINK</a>
+            <a ms-attr-href="http://www.qunar.com/{{hrefRouter}}" id="aHref2">LINK</a>
         </div>
 
         <h1>readonly、disabled、enabled绑定</h1>
         <div>
-            <input type="text" ms-readonly="{{readonly}}" ms-enabled="enabled" ms-value="{{c1}}" />
-            <input type="text" ms-disabled="!enabled" ms-value="{{c1}}" />
-            <input type="text" ms-attr-readonly="readonly" ms-attr-disabled="!enabled" ms-value="{{c1}}" />
+            <input type="text" ms-readonly="{{readonly}}" ms-enabled="enabled" ms-value="{{c1}}" id="rdeInput1" />
+            <input type="text" ms-disabled="!enabled" ms-value="{{c1}}" id="rdeInput2" />
+            <input type="text" ms-attr-readonly="readonly" ms-attr-disabled="!enabled" ms-value="{{c1}}" id="rdeInput3" />
         </div>
 
         <h1>selected、checked</h1>

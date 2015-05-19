@@ -14,7 +14,6 @@ describe('测试ms-attr', function () {
         avalon.scan(dom, vm)
         var str = serializer.serialize(dom);
         str = removeMSScan(removeComment(str))
-console.log(str)
         return str;
     }
 
